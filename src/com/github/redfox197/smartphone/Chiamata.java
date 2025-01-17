@@ -1,8 +1,8 @@
 package com.github.redfox197.smartphone;
 
 public class Chiamata {
-    private String numero;
-    private int durata;
+    private final String numero;
+    private final int durata;
 
     public Chiamata(String numero, int durata) {
         this.numero = numero;

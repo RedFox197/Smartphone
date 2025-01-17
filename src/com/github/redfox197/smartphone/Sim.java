@@ -1,8 +1,8 @@
 package com.github.redfox197.smartphone;
 
 public class Sim {
-    private String numero;
-    private String operatore;
+    private final String numero;
+    private final String operatore;
     private float credito;
     private float costoPerMinuto;
     private float costoSMS;
@@ -33,5 +33,17 @@ public class Sim {
         }
 
         return false;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public float getCostoPerMinuto() {
+        return costoPerMinuto;
+    }
+
+    public float getCostoSMS() {
+        return costoSMS;
     }
 }
