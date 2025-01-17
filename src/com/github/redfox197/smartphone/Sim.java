@@ -11,6 +11,9 @@ public class Sim {
         this.numero = numero;
         this.operatore = operatore;
         this.credito = credito;
+
+        costoPerMinuto = 0.3f;
+        costoSMS = 0.15f;
     }
 
     public float verificaCredito() {
